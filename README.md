@@ -35,6 +35,7 @@ The system combines **YOLOv10** (for object detection) with **EasyOCR** (for lic
 ```bash
 git clone https://github.com/Erastus12/Motoplat.git
 cd Motoplat
+```
 
 2. Create a virtual environment and install dependencies:
 python -m venv venv
