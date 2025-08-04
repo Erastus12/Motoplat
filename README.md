@@ -38,14 +38,18 @@ cd Motoplat
 ```
 
 2. Create a virtual environment and install dependencies:
+```bash
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
+```
 
 3. Import database and run MySQL server
 
 4. Download YOLOv10 pretrained weights and place them in the models/ folder.
+```bash
 python src/detection.py --input input/contoh_3.mp4
+```
 
 The script will:
 
@@ -63,10 +67,8 @@ Output results to the output/ folder
 📝 Text files with recognized license numbers
 
 
-Author
-Erastus Keytaro Bangun
-Information Technology Graduate
-Universitas Sumatera Utara
+🙋‍♂️Author
+Erastus Keytaro Bangun - Information Technology Graduate, Universitas Sumatera Utara
 
 
 
