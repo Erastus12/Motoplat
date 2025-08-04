@@ -1,0 +1,15 @@
+path: data_plat_motor_baru
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ["License Plate"]
+
+roboflow:
+  workspace: zeroexperiments
+  project: motorcycle-license-plate-skrdr
+  version: 4
+  license: Public Domain
+  url: https://universe.roboflow.com/zeroexperiments/motorcycle-license-plate-skrdr/dataset/4
